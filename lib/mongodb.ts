@@ -2,9 +2,9 @@ import { MongoClient } from 'mongodb';
 
 const uri = process.env.MONGODB_URI;
 
-declare global {
-  let _mongoClientPromise: Promise<MongoClient>;
-}
+declare const global: typeof globalThis & {
+  _mongoClientPromise?: Promise<MongoClient>;
+};
 
 if (!uri) {
   throw new Error('Please add your MongoDB URI to .env.local');
