@@ -11,7 +11,7 @@ export default function CommentsSection({
   initialComments: Comment[];
   game: string;
 }) {
-  const [comments, setComments] = useState(initialComments);
+  const [comments, _] = useState(initialComments);
   const [replyingTo, setReplyingTo] = useState<string | null>(null);
   const [showNotice, setShowNotice] = useState(false);
 
@@ -90,11 +90,11 @@ export default function CommentsSection({
       <div className=" mt-4 space-y-4">
         {Object.values(groupedComments)
           .sort(
-            (a: any, b: any) =>
+            (a, b) =>
               new Date(b.main.created_at).getTime() -
               new Date(a.main.created_at).getTime()
           )
-          .map((group: any) => (
+          .map((group) => (
             <div key={group.main._id} className="border-b pb-2">
               <p>
                 <strong>{group.main.user_name}</strong> -{" "}
@@ -121,7 +121,7 @@ export default function CommentsSection({
                   onClose={() => setReplyingTo(null)}
                 />
               )}
-              {group.replies.map((reply: any) => (
+              {group.replies.map((reply) => (
                 <div key={reply._id} className="ml-8 mt-2">
                   <p>
                     <strong>{reply.user_name}</strong> -{" "}

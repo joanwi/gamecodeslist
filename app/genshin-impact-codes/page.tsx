@@ -89,7 +89,7 @@ export default async function GenshinImpactPage() {
               Select your server region and enter your character nickname.
             </li>
             <li>Paste one of the active Genshin Impact codes from our list.</li>
-            <li>Hit "Redeem" and check your in-game mailbox for rewards!</li>
+            <li>Hit Redeem and check your in-game mailbox for rewards!</li>
           </ul>
           <Image
             src="/how-to-redeem-genshin-impact-codes-online.jpg"
