@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.article-container {
+  @apply mx-auto text-gray-800;
+}
+
+.article-container h1 {
+  @apply text-4xl font-bold text-gray-900 mt-4 mb-2;
+}
+
+.article-container h2 {
+  @apply text-2xl font-bold my-2; 
+}
+
+.article-container h3 {
+  @apply text-sm font-semibold text-gray-700 my-2;
+}
+
+.article-container p {
+  @apply text-base leading-relaxed text-gray-600 mb-2;
+}
+
+.article-container ul,
+.article-container ol {
+  @apply list-disc list-inside mb-3 pl-5 text-gray-600;
+}
+
+.article-container li {
+  @apply mb-2;
+}
+
+.article-container strong {
+  @apply font-bold text-gray-800;
+}
+
+.article-container a {
+  @apply text-blue-500 hover:text-blue-700 hover:underline transition-colors;
+}
+
+@media (min-width: 640px) {
+  .article-container {
+    @apply px-6;
+  }
+
+  .article-container h1 {
+    @apply text-5xl;
+  }
+
+  .article-container h2 {
+    @apply text-3xl;
+  }
+
+  .article-container h3 {
+    @apply text-2xl;
+  }
+
+  .article-container p {
+    @apply text-lg;
+  }
+}
+
+@media (min-width: 1024px) {
+  .article-container {
+    @apply px-6;
+  }
+}
+
+
