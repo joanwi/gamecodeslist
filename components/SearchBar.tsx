@@ -46,16 +46,19 @@ export default function SearchBar() {
 
   return (
     <div className="relative flex flex-col items-center my-8" ref={wrapperRef}>
-      <h2 className="text-2xl font-bold text-center mb-8">
-        Enter a game name, quickly find the latest redeem codes!
-      </h2>
+      <h1 className="text-2xl font-bold text-center mb-8">
+        Free Game Codes & Redeem Codes for All Platforms
+      </h1>
+      <p className="text-xl font-bold text-center mb-4">
+        Enter a game name to quickly find the latest redeem codes!
+      </p>
       <div className="w-full max-w-lg flex gap-2 relative">
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onFocus={() => setShowDropdown(true)}
-          placeholder="Enter game name"
+          placeholder="Search for game codes..."
           className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button

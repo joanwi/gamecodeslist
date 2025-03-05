@@ -9,15 +9,14 @@ import {
 } from "@/components/ui/accordion";
 import { Metadata } from "next";
 
-
 export const metadata: Metadata = {
-  title: "GameCodesList - Your Source for Game Codes",
+  title: "Free Game Codes, Redeem Codes & Promo Codes | GameCodesList",
   description:
-  "Find the latest game codes for your favorite games.",
+    "Discover the latest free game codes, redeem codes, and promo codes for popular games. Updated daily with verified working codes to enhance your gaming experience without spending extra money.",
   keywords: [
-    "Jujutsu Infinite codes",
-    "Genshin Impact codes",
-    "Blue Lock Rivals codes",
+    "Free Game Codes",
+    "latest game codes",
+    "popular games",
     "redeem codes",
   ],
   alternates: {
@@ -31,11 +30,11 @@ export default function Home() {
       <div className="container mx-auto px-4 flex-grow">
         <SearchBar />
         <section className="my-8">
-          <h2 className="text-2xl font-bold mb-4">Featured Games</h2>
+          <h2 className="text-2xl font-bold mb-4">Featured Games Codes</h2>
           <FeaturedGames />
         </section>
         <section className="my-8">
-          <h2 className="text-2xl font-bold mb-4">Latest Updates</h2>
+          <h2 className="text-2xl font-bold mb-4">Latest Updates Redeem Codes</h2>
           <LatestUpdates />
         </section>
         <section className="article-container md:px-24">
@@ -44,10 +43,10 @@ export default function Home() {
             Welcome to GameCodesList.com, your ultimate resource for the latest
             game codes! We specialize in aggregating and sharing up-to-date,
             official game codes from trusted sources like game X accounts,
-            websites, and publishers. Whether you&apos;re looking for discount codes,
-            free item codes, or special event codes for your favorite PC,
-            console, or mobile games, we&apos;ve got you covered. Our mission is to
-            help gamers save money and enhance their gaming experience with
+            websites, and publishers. Whether you&apos;re looking for discount
+            codes, free item codes, or special event codes for your favorite PC,
+            console, or mobile games, we&apos;ve got you covered. Our mission is
+            to help gamers save money and enhance their gaming experience with
             reliable, official game codes. Explore our extensive list today and
             unlock incredible rewards!
           </p>
@@ -142,8 +141,8 @@ export default function Home() {
               <AccordionContent>
                 Game codes are subject to the terms of the game publishers, and
                 we cannot guarantee their availability or validity. If a code
-                doesn&apos;t work, check the official source or contact the publisher
-                for assistance.
+                doesn&apos;t work, check the official source or contact the
+                publisher for assistance.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
