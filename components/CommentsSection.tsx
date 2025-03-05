@@ -11,7 +11,7 @@ export default function CommentsSection({
   initialComments: Comment[];
   game: string;
 }) {
-  const [comments, _] = useState(initialComments);
+  const comments = initialComments;
   const [replyingTo, setReplyingTo] = useState<string | null>(null);
   const [showNotice, setShowNotice] = useState(false);
 
