@@ -8,7 +8,7 @@ export default function TermsOfService() {
           <section>
             <p>
               Welcome to GameCodesList.com. By using this Website, you agree to
-              these Terms of Service ("Terms"). If you do not agree, please do
+              these Terms of Service (Terms). If you do not agree, please do
               not use the Website.
             </p>
           </section>

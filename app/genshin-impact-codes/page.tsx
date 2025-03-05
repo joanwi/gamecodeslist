@@ -99,10 +99,10 @@ export default async function GenshinImpactPage() {
           <h3>Redeem Genshin Impact codes In-Game</h3>
           <ul>
             <li>Launch Genshin Impact and open the Paimon menu.</li>
-            <li>Go to "Settings" (&gt;) "Account" (&gt;) "Redeem Code."</li>
+            <li>Go to Settings (&gt;) Account (&gt;) Redeem Code.</li>
             <li>Type or paste your Genshin Impact codes into the text box.</li>
             <li>
-              Press "Exchange" and claim your goodies from the in-game mail.
+              Press Exchange and claim your goodies from the in-game mail.
             </li>
           </ul>
           <Image

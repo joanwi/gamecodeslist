@@ -6,8 +6,8 @@ export default function PrivacyPolicy() {
         <p>Effective Date: March 4, 2025</p>
         <section>
           <p>
-            Welcome to GameCodesList.com (hereinafter referred to as "the
-            Website"). We are committed to protecting your privacy. This Privacy
+            Welcome to GameCodesList.com (hereinafter referred to as the
+            Website). We are committed to protecting your privacy. This Privacy
             Policy explains how we collect, use, disclose, and safeguard your
             information when you use our Website. Please read this policy
             carefully. If you do not agree with this policy, please do not use
