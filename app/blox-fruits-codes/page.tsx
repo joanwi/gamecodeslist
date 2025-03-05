@@ -45,7 +45,7 @@ export default async function BloxFruitsPage() {
         <div className="article-container">
           <p>
             Looking for the latest Blox Fruits codes to boost your gameplay?
-            You've come to the right place! Our regularly updated list features
+            You&apos;ve come to the right place! Our regularly updated list features
             all active Blox Fruits codes that provide valuable rewards like 2x
             experience boosts, stat resets, and in-game currency. Redeem these
             Blox Fruits codes quickly as they expire without warning!
@@ -81,7 +81,7 @@ export default async function BloxFruitsPage() {
             <li>Click on the icon to open the code redemption window</li>
             <li>Copy a Blox Fruits code from our list</li>
             <li>Paste or type the code into the text field</li>
-            <li>Click "Redeem" to claim your reward</li>
+            <li>Click {"Redeem"} to claim your reward</li>
             <li>Enjoy your free Blox Fruits rewards!</li>
           </ul>
           <Image
@@ -108,7 +108,7 @@ export default async function BloxFruitsPage() {
             </li>
             <li>
               <strong>Stat Resets:</strong> Allow you to reallocate your
-              character's stat points
+              character&apos;s stat points
             </li>
             <li>
               <strong>Beli:</strong> In-game currency to purchase items
@@ -147,7 +147,7 @@ export default async function BloxFruitsPage() {
             </li>
           </ul>
           <p>
-            Stay tuned for more Blox Fruits codes as they're released. We'll
+            Stay tuned for more Blox Fruits codes as they&apos;re released. We&apos;ll
             continue updating this list to ensure you have access to all the
             latest free rewards!
           </p>
@@ -166,11 +166,11 @@ export default async function BloxFruitsPage() {
             milestones.
           </p>
           <p className="text-sm font-bold">
-            My Blox Fruits code isn't working. What should I do?
+            My Blox Fruits code isn&apos;t working. What should I do?
           </p>
           <p>
-            Double-check that you've entered the code exactly as shown,
-            including correct capitalization. If it still doesn't work, the code
+            Double-check that you&apos;ve entered the code exactly as shown,
+            including correct capitalization. If it still doesn&apos;t work, the code
             may have expired.
           </p>
           <p className="text-sm font-bold">

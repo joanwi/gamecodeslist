@@ -43,18 +43,18 @@ export default async function JujutsuInfinitePage() {
         />
         <div className="article-container">
           <p>
-            Welcome to your ultimate guide for Jujutsu Infinite codes! If you're
+            Welcome to your ultimate guide for Jujutsu Infinite codes! If you&apos;re
             a fan of the hit anime Jujutsu Kaisen and love immersive Roblox
             RPGs, Jujutsu Infinite by Awesome Ninja Games is the perfect game
             for you. This open-world adventure lets you craft your own sorcerer,
             battle cursed spirits, and unlock powerful Innate Techniques—all
             while diving into an epic story mode. To help you level up faster
-            and roll for rare abilities, we've compiled the latest Jujutsu
+            and roll for rare abilities, we&apos;ve compiled the latest Jujutsu
             Infinite codes for March 2025. Redeem these codes for free spins and
             become the ultimate sorcerer today!
           </p>
           <p>
-            Here's the list of currently active Jujutsu Infinite codes you can
+            Here&apos;s the list of currently active Jujutsu Infinite codes you can
             redeem right now. These codes provide free spins to help you unlock
             Legendary and Special Grade Innate Techniques:
           </p>
@@ -105,12 +105,12 @@ export default async function JujutsuInfinitePage() {
             width={1000}
             height={494}></Image>
           <p>
-            Having trouble? Ensure you're entering valid Jujutsu Infinite
-            codes,they're case-sensitive and that they haven't expired.
+            Having trouble? Ensure you&apos;re entering valid Jujutsu Infinite
+            codes,they&apos;re case-sensitive and that they haven&apos;t expired.
           </p>
           <p>
-            We'll keep this section updated as more Jujutsu Infinite codes
-            expire, so you always know what's active.
+            We&apos;ll keep this section updated as more Jujutsu Infinite codes
+            expire, so you always know what&apos;s active.
           </p>
           <h2>What Are Jujutsu Infinite Codes?</h2>
           <p>
@@ -123,14 +123,14 @@ export default async function JujutsuInfinitePage() {
             spending Robux.
           </p>
           <h2>How to Get More Jujutsu Infinite Codes?</h2>
-          <p>Want more Jujutsu Infinite codes? Here's where to find them:</p>
+          <p>Want more Jujutsu Infinite codes? Here&apos;s where to find them:</p>
           <ul>
             <li>
               <strong>Official Discord Server: </strong>Join the{" "}
               <Link href="https://discord.com/invite/jjkinf/">
                 Jujutsu Infinite Discord
               </Link>{" "}
-              for the latest code drops and announcements. It's tough to get in,
+              for the latest code drops and announcements. It&apos;s tough to get in,
               but worth it!
             </li>
             <li>
@@ -154,9 +154,9 @@ export default async function JujutsuInfinitePage() {
             </li>
           </ul>
           <p>
-            Don't want the hassle? Bookmark this page! We scour all official
+            Don&apos;t want the hassle? Bookmark this page! We scour all official
             sources to bring you the freshest Jujutsu Infinite codes as soon as
-            they're released.
+            they&apos;re released.
           </p>
           <h2>Jujutsu Infinite Trello Link</h2>
           <p>
@@ -165,7 +165,7 @@ export default async function JujutsuInfinitePage() {
               Jujutsu Infinite Trello board
             </Link>{" "}
             is a goldmine of information. From Innate Techniques tier lists to
-            cursed tool details, it's your one-stop resource for mastering the
+            cursed tool details, it&apos;s your one-stop resource for mastering the
             game. Visit the official Jujutsu Infinite Trello to optimize your
             build and make the most of your Jujutsu Infinite codes.
           </p>
@@ -199,7 +199,7 @@ export default async function JujutsuInfinitePage() {
             Jujutsu High, customize your character with unique Innate Techniques
             and cursed skills, and take on cursed spirits, epic bosses, and
             other players in PvP mode. With stunning visuals, immersive
-            cutscenes, and a gripping storyline, it's no wonder fans adore this
+            cutscenes, and a gripping storyline, it&apos;s no wonder fans adore this
             game. Use Jujutsu Infinite codes to spin for rare abilities and
             dominate the competition!
           </p>
@@ -207,18 +207,18 @@ export default async function JujutsuInfinitePage() {
           <p>
             In Jujutsu Infinite, your success depends heavily on your Innate
             Techniques. The rarest ones unlock the most powerful abilities, but
-            they're locked behind a gacha system. Jujutsu Infinite codes give
+            they&apos;re locked behind a gacha system. Jujutsu Infinite codes give
             you free spins to roll for these game-changing traits without
-            spending extra time or money. Whether you're slaying bosses or
+            spending extra time or money. Whether you&apos;re slaying bosses or
             dueling in PvP, these codes are your ticket to becoming the
             strongest sorcerer.
           </p>
           <p className="text-sm font-bold">Final Thoughts</p>
           <p>
             Ready to jump into Jujutsu Infinite? With our updated list of
-            Jujutsu Infinite codes, you've got everything you need to kickstart
+            Jujutsu Infinite codes, you&apos;ve got everything you need to kickstart
             your journey. Redeem them now, spin for your favorite techniques,
-            and let us know in the comments which Innate Technique you're
+            and let us know in the comments which Innate Technique you&apos;re
             rocking! For more Roblox fun, check out our guides on{" "}
             <Link href="/">Type Soul codes</Link> and{" "}
             <Link href="/">Blox Fruits codes</Link>.

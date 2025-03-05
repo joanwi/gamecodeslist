@@ -44,9 +44,9 @@ export default function Home() {
             Welcome to GameCodesList.com, your ultimate resource for the latest
             game codes! We specialize in aggregating and sharing up-to-date,
             official game codes from trusted sources like game X accounts,
-            websites, and publishers. Whether you're looking for discount codes,
+            websites, and publishers. Whether you&apos;re looking for discount codes,
             free item codes, or special event codes for your favorite PC,
-            console, or mobile games, we've got you covered. Our mission is to
+            console, or mobile games, we&apos;ve got you covered. Our mission is to
             help gamers save money and enhance their gaming experience with
             reliable, official game codes. Explore our extensive list today and
             unlock incredible rewards!
@@ -137,12 +137,12 @@ export default function Home() {
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                What if a game code doesn't work?
+                What if a game code doesn&apos;t work?
               </AccordionTrigger>
               <AccordionContent>
                 Game codes are subject to the terms of the game publishers, and
                 we cannot guarantee their availability or validity. If a code
-                doesn't work, check the official source or contact the publisher
+                doesn&apos;t work, check the official source or contact the publisher
                 for assistance.
               </AccordionContent>
             </AccordionItem>

@@ -44,11 +44,11 @@ export default async function BlueLockRivalsPage() {
         />
         <div className="article-container">
           <p>
-            If you're a fan of the thrilling Blue Lock anime and love
+            If you&apos;re a fan of the thrilling Blue Lock anime and love
             action-packed soccer gameplay on Roblox, Blue Lock Rivals is the
             perfect game for you. With its unique gacha mechanics, flashy flows,
             and intense 5v5 matches, Blue Lock Rivals brings the ego-driven
-            soccer world to life. To help you rise above the competition, we've
+            soccer world to life. To help you rise above the competition, we&apos;ve
             compiled the latest Blue Lock Rivals codes. These active Blue Lock
             Rivals codes will grant you free spins, cash boosts, lucky flows,
             and more to unlock your ultimate soccer style!
@@ -67,7 +67,7 @@ export default async function BlueLockRivalsPage() {
           <h2>How to Redeem Blue Lock Rivals Codes</h2>
           <p>
             Redeeming Blue Lock Rivals codes is simple, but there are a couple
-            of steps to follow first. Here's how to claim your freebies:
+            of steps to follow first. Here&apos;s how to claim your freebies:
           </p>
           <ul>
             <li>
@@ -93,8 +93,8 @@ export default async function BlueLockRivalsPage() {
             height={291}></Image>
           <p>
             Pro tip: Double-check for typos or extra spaces when entering Blue
-            Lock Rivals codes, as they're case-sensitive. If a code still
-            doesn't work, it may have expired.
+            Lock Rivals codes, as they&apos;re case-sensitive. If a code still
+            doesn&apos;t work, it may have expired.
           </p>
           <h2>Why Are My Blue Lock Rivals Codes Not Working?</h2>
           <p>
@@ -103,7 +103,7 @@ export default async function BlueLockRivalsPage() {
           </p>
           <ul>
             <li>
-              <strong>Expired Code:</strong> Blue Lock Rivals codes don't come
+              <strong>Expired Code:</strong> Blue Lock Rivals codes don&apos;t come
               with set expiration dates, so they can stop working unexpectedly.
               Check our expired list above.
             </li>
@@ -119,7 +119,7 @@ export default async function BlueLockRivalsPage() {
             </li>
           </ul>
           <h2>How to Get More Blue Lock Rivals Codes?</h2>
-          <p>Want more Blue Lock Rivals codes? Here's where to find them:</p>
+          <p>Want more Blue Lock Rivals codes? Here&apos;s where to find them:</p>
           <ul>
             <li>
               <Link href="https://discord.com/invite/bluelockrivals">
@@ -159,7 +159,7 @@ export default async function BlueLockRivalsPage() {
             Blue Lock Rivals is a Roblox soccer game inspired by the hit Blue
             Lock anime and manga. It blends RPG elements with intense football
             action, letting you unlock signature styles and flows from
-            characters like Isagi, Chigiri, and Rin. Whether you're scoring
+            characters like Isagi, Chigiri, and Rin. Whether you&apos;re scoring
             goals with anime-inspired flair or competing in 5v5 matches, Blue
             Lock Rivals delivers a unique experience for soccer fans and Roblox
             players alike. Redeeming Blue Lock Rivals codes gives you the edge
@@ -167,8 +167,8 @@ export default async function BlueLockRivalsPage() {
           </p>
           <p className="text-sm font-bold">Final Thoughts</p>
           <p>
-            With these Blue Lock Rivals codes, you're ready to channel your
-            inner egoist and take your soccer skills to the next level. Don't
+            With these Blue Lock Rivals codes, you&apos;re ready to channel your
+            inner egoist and take your soccer skills to the next level. Don&apos;t
             miss out—redeem the latest Blue Lock Rivals codes today and start
             scoring goals in style! Have you already claimed your free spins?
             Let us know your goal count in the comments below, and check out our
