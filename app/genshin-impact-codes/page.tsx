@@ -42,16 +42,16 @@ export default async function GenshinImpactPage() {
         />
         <div className="article-container">
           <p>
-            Welcome to your ultimate guide for Genshin Impact codes! If you&apos;re
-            exploring the vast world of Teyvat and looking to score some free
-            Primogems, Mora, Hero&apos;s Wit, and other in-game goodies, you&apos;ve come
-            to the right place.{" "}
+            Welcome to your ultimate guide for Genshin Impact codes! If
+            you&apos;re exploring the vast world of Teyvat and looking to score
+            some free Primogems, Mora, Hero&apos;s Wit, and other in-game
+            goodies, you&apos;ve come to the right place.{" "}
             <Link href="https://genshin.hoyoverse.com/">Hoyoverse,</Link> the
             developer behind this massive open-world RPG, frequently releases
             Genshin Impact codes to reward players during livestreams, updates,
-            and special events. In this guide, we&apos;ll provide you with the latest
-            Genshin Impact codes, show you how to redeem them, and share tips on
-            maximizing your rewards.
+            and special events. In this guide, we&apos;ll provide you with the
+            latest Genshin Impact codes, show you how to redeem them, and share
+            tips on maximizing your rewards.
           </p>
           <GameCodes
             game={game}
@@ -61,19 +61,19 @@ export default async function GenshinImpactPage() {
           <p>
             Keep this page bookmarked, as we update it regularly with the newest
             Genshin Impact codes to ensure you never miss out on freebies. Ready
-            to power up your characters? Let&apos;s dive into the world of Genshin
-            Impact codes!
+            to power up your characters? Let&apos;s dive into the world of
+            Genshin Impact codes!
           </p>
           <Image
             src="/Genshin Impact.jpg"
             alt="Genshin Impact"
             width={680}
             height={346}></Image>
-            <span className="text-xs">Image via Genshin Impact</span>
+          <span className="text-xs">Image via Genshin Impact</span>
           <h2>How to Redeem Genshin Impact Codes</h2>
           <p>
-            Redeeming Genshin Impact codes is quick and easy. You&apos;ll need to
-            reach Adventure Rank 10 first—open chests and complete quests to
+            Redeeming Genshin Impact codes is quick and easy. You&apos;ll need
+            to reach Adventure Rank 10 first—open chests and complete quests to
             level up fast. Once you&apos;re ready, follow these steps:
           </p>
           <h3>Redeem Genshin Impact codes Online</h3>
@@ -111,8 +111,8 @@ export default async function GenshinImpactPage() {
             width={660}
             height={425}></Image>
           <p>
-            With these simple steps, you&apos;ll be enjoying free loot from Genshin
-            Impact codes in no time!
+            With these simple steps, you&apos;ll be enjoying free loot from
+            Genshin Impact codes in no time!
           </p>
           <h2>What Are Genshin Impact Codes?</h2>
           <p>
@@ -120,9 +120,9 @@ export default async function GenshinImpactPage() {
             that grant players free in-game items like Primogems, Mora, and
             enhancement materials. These codes are often released during
             livestreams, game updates (like version 5.4), or to celebrate
-            milestones. Whether you&apos;re saving for the next banner or powering up
-            your party, Genshin Impact codes are a fantastic way to get ahead
-            without the grind.
+            milestones. Whether you&apos;re saving for the next banner or
+            powering up your party, Genshin Impact codes are a fantastic way to
+            get ahead without the grind.
           </p>
           <h2>Where to Find More Genshin Impact Codes</h2>
           <p>
@@ -147,8 +147,8 @@ export default async function GenshinImpactPage() {
               for announcements.
             </li>
             <li>
-              <strong>This Page:</strong> We&apos;ll keep you updated with the latest
-              Genshin Impact codes as soon as they&apos;re available!
+              <strong>This Page:</strong> We&apos;ll keep you updated with the
+              latest Genshin Impact codes as soon as they&apos;re available!
             </li>
           </ul>
           <h2>Tips to Get More Primogems Without Codes</h2>
@@ -178,9 +178,10 @@ export default async function GenshinImpactPage() {
           <p>
             With Genshin Impact codes, you can skip some of the grind and dive
             straight into summoning new characters or upgrading your team.
-            Whether you&apos;re a free-to-play adventurer or a seasoned Traveler,
-            these codes give you an edge in Teyvat. Stay tuned for Genshin
-            Impact codes and beyond—your next big pull is just a redeem away!
+            Whether you&apos;re a free-to-play adventurer or a seasoned
+            Traveler, these codes give you an edge in Teyvat. Stay tuned for
+            Genshin Impact codes and beyond—your next big pull is just a redeem
+            away!
           </p>
           <p>
             If you need a break from Genshin Impact, why not take a look at our

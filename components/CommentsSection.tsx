@@ -4,7 +4,7 @@ import { format } from "date-fns";
 import { Comment,GroupedComments } from "@/lib/types";
 import ReplyForm from "./ReplyForm";
 
-export default function CommentsSection({
+export default async function CommentsSection({
   initialComments,
   game,
 }: {

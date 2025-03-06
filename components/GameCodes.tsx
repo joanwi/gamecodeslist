@@ -7,7 +7,7 @@ interface GameCodesProps {
   expiredCodes: Codes[];
 }
 
-export default function GameCodes({
+export default async function GameCodes({
   game,
   activeCodes,
   expiredCodes,
