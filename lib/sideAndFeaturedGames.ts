@@ -1,11 +1,5 @@
-export const getCurrentDate = () => {
-  return new Date().toLocaleDateString("en-US", {
-    month: "long",
-    year: "numeric",
-  });
-};
-
-export const featuredGames = [   //fixed 5 game
+export const featuredGames = [
+  //fixed 5 game
   {
     game: "Jujutsu Infinite",
     imageUrl: "/Jujutsu Infinite Games.png",
@@ -21,7 +15,11 @@ export const featuredGames = [   //fixed 5 game
   {
     game: "Blox Fruits",
     imageUrl: "/Blox-Fruits-codes.jpg",
-  }
+  },
+  {
+    game: "Monster Hunter Wilds",
+    imageUrl: "/Monster-Hunter-Wilds-1.jpg",
+  },
 ];
 //siderbar image === featuredGamesImage
 export const sideGames = [
@@ -41,6 +39,16 @@ export const sideGames = [
     game: "Blox Fruits",
     imageUrl: "/Blox-Fruits-codes.jpg",
   },
+  {
+    game: "Monster Hunter Wilds",
+    imageUrl: "/Monster-Hunter-Wilds-1.jpg",
+  },
 ];
 
 
+export const getCurrentDate = () => {
+  return new Date().toLocaleDateString("en-US", {
+    month: "long",
+    year: "numeric",
+  });
+};

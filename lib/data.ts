@@ -1,4 +1,4 @@
-import { Codes, Comment, SiderBarGames } from "@/lib/types";
+import { Codes, Comment,SiderBarCodes } from "@/lib/types";
 import clientPromise from "@/lib/mongodb";
 import { sideGames, featuredGames } from "./sideAndFeaturedGames";
 
@@ -68,13 +68,13 @@ export async function fetchLatestUpdates() {
   const siderBarGames = latestUpdates.map((code) => ({
     ...code,
     imageUrl: sideGames.find((img) => img.game === code.game)?.imageUrl || "",
-  })) as SiderBarGames[];
+  })) as SiderBarCodes[];
 
   const newFeaturedGames = latestUpdates.map((code) => ({
     ...code,
     imageUrl:
       featuredGames.find((img) => img.game === code.game)?.imageUrl || "",
-  })) as SiderBarGames[];
+  })) as SiderBarCodes[];
 
   // console.log("siderBarGames iamgeurl:", siderBarGames);
 

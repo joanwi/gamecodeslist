@@ -8,13 +8,13 @@ export default async function Sidebar() {
   const sortedGames = siderBarGames.slice(0, 5);
 
   return (
-    <div className="grid grid-cols-1 gap-3 max-w-[280px]">
+    <div className="grid grid-cols-1 gap-4 max-w-[260px]">
       <h2 className="text-xl font-bold mx-auto mb-1">Latest Updates</h2>
       {sortedGames.map((game) => (
         <div
           key={game._id}
-          className="border p-3 rounded shadow hover:shadow-lg transition max-w-[260px] mx-auto">
-          <div className="w-full h-32 relative">
+          className="border p-3 rounded shadow hover:shadow-lg transition">
+          <div className="w-full h-46 relative">
             <Link href={game.url}>
               <Image
                 src={game.imageUrl}
@@ -25,7 +25,7 @@ export default async function Sidebar() {
               />
             </Link>
           </div>
-          <h3 className="text-lg font-bold mt-1 truncate">{game.game}</h3>
+          <h3 className="text-lg font-bold mt-1">{game.game}</h3>
           <p className="text-sm text-gray-600">
             Last updated: {game.update}
           </p>

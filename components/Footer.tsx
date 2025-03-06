@@ -21,17 +21,14 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-sm text-muted-foreground">
-              Visit GameCodesList now to discover and use the best media
-              download & convert tools!
+              Visit GameCodesList now to find the latest redeem codes!
             </p>
           </div>
           <div>
             <h3 className="font-semibold mb-3">Resources</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link
-                  href="#"
-                  className="hover:text-primary transition-colors">
+                <Link href="#" className="hover:text-primary transition-colors">
                   Blog
                 </Link>
               </li>
@@ -60,15 +57,22 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-primary transition-colors">
+                <Link href="/contact" className="hover:text-primary transition-colors">
                   Contact Us
                 </Link>
               </li>
             </ul>
           </div>
         </div>
+        <div className="mt-4 text-center text-sm text-muted-foreground" >
+          <p>
+            If you believe an image on GameCodesList.com belongs to you and
+            you’d like us to remove it,  please contact us at <br />
+            support@gamecodeslist.com, and we’ll promptly address your request.
+          </p>
+        </div>
 
-        <div className="border-t mt-12 pt-8 text-center text-sm text-muted-foreground">
+        <div className="border-t mt-4 pt-6 text-center text-sm text-muted-foreground">
           <p>
             &copy; {new Date().getFullYear()} GameCodesList. All rights
             reserved.

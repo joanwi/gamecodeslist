@@ -29,7 +29,7 @@ export default function CommentsSection({
 
     if (response.ok) {
       setShowNotice(true);
-      setTimeout(() => setShowNotice(false), 3000);
+      setTimeout(() => setShowNotice(false), 5000);
     }
   };
 

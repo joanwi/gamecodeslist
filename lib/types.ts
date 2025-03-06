@@ -26,7 +26,7 @@ export interface Codes {
   url: string;
 }
 
-export interface SiderBarGames {
+export interface SiderBarCodes {
   _id: string;
   game: string;
   code: string;
@@ -36,3 +36,4 @@ export interface SiderBarGames {
   url: string;
   imageUrl: string;
 }
+

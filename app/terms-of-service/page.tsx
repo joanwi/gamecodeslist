@@ -1,3 +1,14 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service - GameCodesList ",
+  description:
+    "Welcome to GameCodesList.com. By using this Website, you agree to these Terms of Service (Terms).",
+  alternates: {
+    canonical: "https://gamecodeslist.com/terms-of-service",
+  },
+};
+
 export default function TermsOfService() {
   return (
     <div className="container mx-auto px-6 md:px-24 py-8 flex flex-col md:flex-row">
@@ -8,8 +19,8 @@ export default function TermsOfService() {
           <section>
             <p>
               Welcome to GameCodesList.com. By using this Website, you agree to
-              these Terms of Service (Terms). If you do not agree, please do
-              not use the Website.
+              these Terms of Service (Terms). If you do not agree, please do not
+              use the Website.
             </p>
           </section>
 
@@ -97,7 +108,9 @@ export default function TermsOfService() {
             <h2>8. Contact Us</h2>
             <address>
               Email:{" "}
-              <a href="mailto:support@gamecodeslist.com">support@gamecodeslist.com</a>
+              <a href="mailto:support@gamecodeslist.com">
+                support@gamecodeslist.com
+              </a>
             </address>
           </section>
         </main>
