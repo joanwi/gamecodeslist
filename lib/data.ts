@@ -22,7 +22,7 @@ export async function fetchGameData(game: string) {
     }))
     .toArray();
 
-  // console.log("comments from MongoDB:", comments);
+  console.log("comments from MongoDB:", comments);
 
   const commentsSum = comments?.length || 0;
 
@@ -63,7 +63,7 @@ export async function fetchLatestUpdates() {
     ])
     .toArray();
 
-  // console.log("lastcodes from MongoDB:", latestUpdates);
+  console.log("lastcodes from MongoDB:", latestUpdates);
 
   const siderBarGames = latestUpdates.map((code) => ({
     ...code,
