@@ -2,11 +2,18 @@ import { Codes, Comment, SiderBarCodes } from "@/lib/types";
 import clientPromise from "@/lib/mongodb";
 import { sideGames, featuredGames } from "./sideAndFeaturedGames";
 
-const client = await clientPromise;
-const db = client.db("gamecodes");
+async function getFreshDb() {
+  const client = await clientPromise;
+  return client.db("gamecodes");
+}
+
+// const client = await clientPromise;
+// const db = client.db("gamecodes");
 
 export async function fetchGameData(game: string) {
+  
   try {
+    const db = await getFreshDb();
     const codes = await db
       .collection<Codes>("codes")
       .find({ game: game })
@@ -22,8 +29,7 @@ export async function fetchGameData(game: string) {
         _id: doc._id.toString(),
       }))
       .toArray();
-
-    console.log("comments from MongoDB:", comments);
+    // console.log("comments from MongoDB:", comments);
 
     const commentsSum = comments?.length || 0;
 
@@ -53,6 +59,7 @@ export async function fetchGameData(game: string) {
 
 export async function fetchLatestUpdates() {
   try {
+    const db = await getFreshDb();
     const latestUpdates = await db
       .collection<Codes>("codes")
       .aggregate([
@@ -69,7 +76,7 @@ export async function fetchLatestUpdates() {
       ])
       .toArray();
 
-    console.log("lastcodes from MongoDB:", latestUpdates);
+    // console.log("lastcodes from MongoDB:", latestUpdates);
 
     const siderBarGames = latestUpdates.map((code) => ({
       ...code,
