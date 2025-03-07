@@ -83,10 +83,10 @@ export async function fetchLatestUpdates() {
       imageUrl: sideGames.find((img) => img.game === code.game)?.imageUrl || "",
     })) as SiderBarCodes[];
 
-    const newFeaturedGames = latestUpdates.map((code) => ({
-      ...code,
-      imageUrl:
-        featuredGames.find((img) => img.game === code.game)?.imageUrl || "",
+    const newFeaturedGames = featuredGames.map((fg) => ({
+      ...fg,
+      ...latestUpdates.find((code) => code.game === fg.game),
+      imageUrl: fg.imageUrl, 
     })) as SiderBarCodes[];
 
     return { latestUpdates, siderBarGames, newFeaturedGames };
