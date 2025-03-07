@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -10,13 +11,13 @@ export default function Footer() {
               <Link
                 href="/"
                 className="flex items-center space-x-2 mr-8 hover:opacity-80 transition-opacity">
-                {/* <Image
-                  src="/mediasaverhub.png"
-                  alt="MediaSaverHub"
+                <Image
+                  src="/GameCodesList.com.jpg"
+                  alt="GameCodesList.com"
                   width={24}
                   height={24}
                   className="object-contain"
-                /> */}
+                />
                 <span className="text-xl font-bold">GameCodesList</span>
               </Link>
             </div>
@@ -57,17 +58,19 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-primary transition-colors">
+                <Link
+                  href="/contact"
+                  className="hover:text-primary transition-colors">
                   Contact Us
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-        <div className="mt-4 text-center text-sm text-muted-foreground" >
+        <div className="mt-4 text-center text-sm text-muted-foreground">
           <p>
             If you believe an image on GameCodesList.com belongs to you and
-            you’d like us to remove it,  please contact us at <br />
+            you’d like us to remove it, please contact us at <br />
             support@gamecodeslist.com, and we’ll promptly address your request.
           </p>
         </div>
