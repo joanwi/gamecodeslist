@@ -3,6 +3,7 @@ import Link from "next/link";
 import { fetchLatestUpdates } from "@/lib/data";
 
 export default async function FeaturedGames() {
+  
   const { newFeaturedGames } = await fetchLatestUpdates();
 
   return (

@@ -43,6 +43,10 @@ export const sideGames = [
     game: "Monster Hunter Wilds",
     imageUrl: "/Monster-Hunter-Wilds-1.jpg",
   },
+  {
+    game: "Anime Adventures",
+    imageUrl: "/Anime-Adventures.jpg",
+  },
 ];
 
 
