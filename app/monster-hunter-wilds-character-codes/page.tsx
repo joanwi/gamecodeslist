@@ -1,4 +1,3 @@
-import GameCodes from "@/components/GameCodes";
 import CommentsSection from "@/components/CommentsSection";
 import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
@@ -8,6 +7,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 import CharacterTable from "@/components/MHCharacterTable";
+
+export const dynamic = "force-dynamic";
 
 const game = "Monster Hunter Wilds";
 const currentDate = getCurrentDate();
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
 };
 
 export default async function MonsterHunterWildsPage() {
-  const { activeCodes, expiredCodes, comments, commentsSum, lastUpdated } =
+  const {comments, commentsSum, lastUpdated } =
     await fetchGameData(game);
 
   return (

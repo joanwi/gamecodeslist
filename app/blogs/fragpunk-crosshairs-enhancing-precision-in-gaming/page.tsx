@@ -8,6 +8,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 
+export const dynamic = "force-dynamic";
+
 const game = "Fragpunk Crosshairs";
 
 export const metadata: Metadata = {

@@ -8,7 +8,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const revalidate = 60;
+export const dynamic = "force-dynamic";
 
 const game = "Genshin Impact";
 const currentDate = getCurrentDate();
