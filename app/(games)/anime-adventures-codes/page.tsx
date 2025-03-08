@@ -52,17 +52,17 @@ export default async function BloxFruitsPage() {
             Bookmark this page and check back regularly, as we update it with
             the newest codes as soon as they drop!
           </p>
-          <GameCodes
-            game={game}
-            activeCodes={activeCodes}
-            expiredCodes={expiredCodes}
-          />
           <Image
             src="/Anime Adventures.jpg"
             alt="Anime Adventures codes"
             width={768}
             height={432}></Image>
           <span className="text-xs">Image via Gomu's Development</span>
+          <GameCodes
+            game={game}
+            activeCodes={activeCodes}
+            expiredCodes={expiredCodes}
+          />
           <h2>How to Redeem Anime Adventures Codes</h2>
           <p>
             Redeeming codes in Anime Adventures is simple and takes just a few

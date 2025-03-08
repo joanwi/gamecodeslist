@@ -53,17 +53,17 @@ export default async function BloxFruitsPage() {
             We’ve rounded up the latest active FragPunk redeem codes to help you
             get started, so let’s jump right in and explore what’s available!
           </p>
-          <GameCodes
-            game={game}
-            activeCodes={activeCodes}
-            expiredCodes={expiredCodes}
-          />
           <Image
             src="/Fragpunk Crosshairs-2.jpg"
             alt="Fragpunk Crosshairs codes"
             width={800}
             height={419}></Image>
           <span className="text-xs">Image via NetEase</span>
+          <GameCodes
+            game={game}
+            activeCodes={activeCodes}
+            expiredCodes={expiredCodes}
+          />
           <h2>How to Redeem FragPunk Codes?</h2>
           <p>Redeeming codes in FragPunk is a straightforward process:</p>
           <ul>

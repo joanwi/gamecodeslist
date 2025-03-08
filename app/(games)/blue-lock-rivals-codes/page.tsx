@@ -55,17 +55,18 @@ export default async function BlueLockRivalsPage() {
             Rivals codes will grant you free spins, cash boosts, lucky flows,
             and more to unlock your ultimate soccer style!
           </p>
-          <GameCodes
-            game={game}
-            activeCodes={activeCodes}
-            expiredCodes={expiredCodes}
-          />
           <Image
             src="/roblox-blue-lock-rivals-codes.jpg"
             alt="Blue Lock Rivals codes"
             width={768}
             height={432}></Image>
-          <span className="text-xs">Image via Blue Lock Rivals Unofficial Fans</span>
+          <span className="text-xs">Image via Blue Lock Rivals</span>
+          <GameCodes
+            game={game}
+            activeCodes={activeCodes}
+            expiredCodes={expiredCodes}
+          />
+         
           <h2>How to Redeem Blue Lock Rivals Codes</h2>
           <p>
             Redeeming Blue Lock Rivals codes is simple, but there are a couple

@@ -55,6 +55,12 @@ export default async function GenshinImpactPage() {
             latest Genshin Impact codes, show you how to redeem them, and share
             tips on maximizing your rewards.
           </p>
+          <Image
+            src="/Genshin Impact.jpg"
+            alt="Genshin Impact"
+            width={680}
+            height={346}></Image>
+          <span className="text-xs">Image via Genshin Impact</span>
           <GameCodes
             game={game}
             activeCodes={activeCodes}
@@ -66,12 +72,7 @@ export default async function GenshinImpactPage() {
             to power up your characters? Let&apos;s dive into the world of
             Genshin Impact codes!
           </p>
-          <Image
-            src="/Genshin Impact.jpg"
-            alt="Genshin Impact"
-            width={680}
-            height={346}></Image>
-          <span className="text-xs">Image via Genshin Impact</span>
+      
           <h2>How to Redeem Genshin Impact Codes</h2>
           <p>
             Redeeming Genshin Impact codes is quick and easy. You&apos;ll need

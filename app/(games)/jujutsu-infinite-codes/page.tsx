@@ -59,17 +59,18 @@ export default async function JujutsuInfinitePage() {
             redeem right now. These codes provide free spins to help you unlock
             Legendary and Special Grade Innate Techniques:
           </p>
-          <GameCodes
-            game={game}
-            activeCodes={activeCodes}
-            expiredCodes={expiredCodes}
-          />
           <Image
             src="/Jujutsu Infinite-Games.png"
             alt="Jujutsu Infinite-Games"
             width={768}
             height={428}></Image>
           <span className="text-xs">Image via Jujutsu Infinite Games</span>
+          <GameCodes
+            game={game}
+            activeCodes={activeCodes}
+            expiredCodes={expiredCodes}
+          />
+         
           <h2>How to Redeem Jujutsu Infinite Codes</h2>
           <p>
             Redeeming Jujutsu Infinite codes is quick and easy. Follow these

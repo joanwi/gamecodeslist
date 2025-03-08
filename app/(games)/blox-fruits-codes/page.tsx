@@ -52,17 +52,18 @@ export default async function BloxFruitsPage() {
             experience boosts, stat resets, and in-game currency. Redeem these
             Blox Fruits codes quickly as they expire without warning!
           </p>
-          <GameCodes
-            game={game}
-            activeCodes={activeCodes}
-            expiredCodes={expiredCodes}
-          />
           <Image
             src="/Blox Fruits codes.jpg"
             alt="Blox Fruits codes"
             width={768}
             height={432}></Image>
           <span className="text-xs">Image via Gamer Robot Inc</span>
+          <GameCodes
+            game={game}
+            activeCodes={activeCodes}
+            expiredCodes={expiredCodes}
+          />
+      
           <h2>How to Redeem Blox Fruits Codes?</h2>
           <p>
             Redeeming Blox Fruits codes is simple. Follow these steps to claim
