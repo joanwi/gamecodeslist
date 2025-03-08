@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const navItems = [
   { text: "Home", href: "/" },
+  { text: "FragPunk", href: "/fragpunk-redeem-codes" },
   { text: "Monster Hunter", href: "/monster-hunter-wilds-character-codes" },
   { text: "Jujutsu Infinite", href: "/jujutsu-infinite-codes" },
-  { text: "Genshin Impact", href: "/genshin-impact-codes" },
   { text: "Blue Lock Rivals", href: "/blue-lock-rivals-codes" },
 ];
 

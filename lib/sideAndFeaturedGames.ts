@@ -1,6 +1,14 @@
 export const featuredGames = [
   //fixed 5 game
   {
+    game: "FragPunk",
+    imageUrl: "/Fragpunk Crosshairs-1.jpg",
+  },
+  {
+    game: "Monster Hunter Wilds",
+    imageUrl: "/Monster-Hunter-Wilds-1.jpg",
+  },
+  {
     game: "Blue Lock Rivals",
     imageUrl: "/roblox-blue-lock-rivals.jpg",
   },
@@ -11,14 +19,6 @@ export const featuredGames = [
   {
     game: "Blox Fruits",
     imageUrl: "/Blox-Fruits-codes.jpg",
-  },
-  {
-    game: "Genshin Impact",
-    imageUrl: "/Genshin Impact.jpg",
-  },
-  {
-    game: "Monster Hunter Wilds",
-    imageUrl: "/Monster-Hunter-Wilds-1.jpg",
   },
 ];
 //siderbar image === featuredGamesImage
@@ -46,6 +46,10 @@ export const sideGames = [
   {
     game: "Anime Adventures",
     imageUrl: "/Anime-Adventures.jpg",
+  },
+  {
+    game: "FragPunk",
+    imageUrl: "/Fragpunk Crosshairs-1.jpg",
   },
 ];
 

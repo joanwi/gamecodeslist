@@ -165,7 +165,7 @@ export default async function BloxFruitsPage() {
           </p>
           <h2>Gameplay Experience</h2>
           <Image
-            src="/Fragpunk Crosshairs-3.jpg"
+            src="/Fragpunk Crosshairs-4.jpg"
             alt="Fragpunk Crosshairs"
             width={800}
             height={450}></Image>
