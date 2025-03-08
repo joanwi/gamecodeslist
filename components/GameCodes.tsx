@@ -37,9 +37,12 @@ export default async function GameCodes({
           ))}
         </ul>
         <p>
-          Note: {game} codes can expire unexpectedly, so redeem them as soon as
-          possible. Bookmark this page and check back regularly—we update it
-          with the newest {game} codes as they drop!
+          {activeCodes.length > 0 &&
+            `Note: ${game} codes can expire unexpectedly, so redeem them as soon as
+            possible. Bookmark this page and check back regularly—we update it
+            with the newest ${game} codes as they drop!`}
+          {activeCodes.length === 0 &&
+            `There are no active ${game} codes now.`}
         </p>
       </section>
 
@@ -53,8 +56,10 @@ export default async function GameCodes({
           ))}
         </ul>
         <p>
-          These {game} codes no longer work, but you can still try them if
-          you’re feeling lucky.
+          {expiredCodes.length > 0 &&
+            `These ${game} codes no longer work, but you can still try them if you're feeling lucky.`}
+          {expiredCodes.length === 0 &&
+            `There are no expired ${game} codes now.`}
         </p>
       </section>
     </>
