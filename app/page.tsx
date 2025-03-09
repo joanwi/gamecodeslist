@@ -1,6 +1,7 @@
 import SearchBar from "@/components/SearchBar";
 import FeaturedGames from "@/components/FeaturedGames";
 import LatestUpdates from "@/components/LatestUpdates";
+import LatestBlogs from "@/components/LatestBlogs";
 import {
   Accordion,
   AccordionContent,
@@ -36,6 +37,10 @@ export default function Home() {
         <section className="my-8">
           <h2 className="text-2xl font-bold mb-4">Latest Updates Redeem Codes</h2>
           <LatestUpdates />
+        </section>
+        <section className="my-8">
+          <h2 className="text-2xl font-bold mb-4">Latest Blogs</h2>
+          <LatestBlogs />
         </section>
         <section className="article-container md:px-24">
           <h2 className="text-center py-6">What Is GameCodesList.com?</h2>
