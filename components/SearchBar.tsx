@@ -52,7 +52,7 @@ export default function SearchBar() {
       <p className="text-xl font-bold text-center mb-4">
         Enter a game name to quickly find the latest redeem codes!
       </p>
-      <div className="w-full max-w-lg flex gap-2 relative">
+      <div className="w-full max-w-lg flex gap-2 relative z-50">
         <input
           type="text"
           value={input}
