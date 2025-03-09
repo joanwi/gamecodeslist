@@ -4,11 +4,8 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
-
-export const dynamic = "force-dynamic"
 
 const game = "Jujutsu Infinite";
 const currentDate = getCurrentDate();
@@ -129,29 +126,29 @@ export default async function JujutsuInfinitePage() {
           <ul>
             <li>
               <strong>Official Discord Server: </strong>Join the{" "}
-              <Link href="https://discord.com/invite/jjkinf/">
+              <a href="https://discord.com/invite/jjkinf/" target="_blank" rel="noopener noreferrer">
                 Jujutsu Infinite Discord
-              </Link>{" "}
+              </a>{" "}
               for the latest code drops and announcements. It&apos;s tough to get in,
               but worth it!
             </li>
             <li>
               <strong>X Account: </strong>Follow{" "}
-              <Link href="https://x.com/awsninjagames/">@awsninjagames</Link> on
+              <a href="https://x.com/awsninjagames/" target="_blank" rel="noopener noreferrer">@awsninjagames</a> on
               X for real-time updates and potential Jujutsu Infinite codes.
             </li>
             <li>
               <strong>YouTube: </strong>Subscribe to the{" "}
-              <Link href="https://www.youtube.com/@awesomeninjagames">
+              <a href="https://www.youtube.com/@awesomeninjagames" target="_blank" rel="noopener noreferrer">
                 Awesome Ninja Games YouTube
-              </Link>{" "}
+              </a>{" "}
               channel for tutorials and code reveals.
             </li>
             <li>
               <strong>Trello Board: </strong>Check the official{" "}
-              <Link href="https://trello.com/b/mV6sSwXY/jujutsu-infinite/">
+              <a href="https://trello.com/b/mV6sSwXY/jujutsu-infinite/" target="_blank" rel="noopener noreferrer">
                 Jujutsu Infinite Trello
-              </Link>{" "}
+              </a>{" "}
               for game info and occasional code mentions.
             </li>
           </ul>
@@ -163,9 +160,9 @@ export default async function JujutsuInfinitePage() {
           <h2>Jujutsu Infinite Trello Link</h2>
           <p>
             The{" "}
-            <Link href="https://trello.com/b/mV6sSwXY/jujutsu-infinite/">
+            <a href="https://trello.com/b/mV6sSwXY/jujutsu-infinite/" target="_blank" rel="noopener noreferrer">
               Jujutsu Infinite Trello board
-            </Link>{" "}
+            </a>{" "}
             is a goldmine of information. From Innate Techniques tier lists to
             cursed tool details, it&apos;s your one-stop resource for mastering the
             game. Visit the official Jujutsu Infinite Trello to optimize your
@@ -221,9 +218,7 @@ export default async function JujutsuInfinitePage() {
             Jujutsu Infinite codes, you&apos;ve got everything you need to kickstart
             your journey. Redeem them now, spin for your favorite techniques,
             and let us know in the comments which Innate Technique you&apos;re
-            rocking! For more Roblox fun, check out our guides on{" "}
-            <Link href="/">Type Soul codes</Link> and{" "}
-            <Link href="/">Blox Fruits codes</Link>.
+            rocking! For more Roblox fun, check out our guides on Type Soul codes and Blox Fruits codes.
           </p>
           <p>Happy gaming, sorcerers!</p>
         </div>

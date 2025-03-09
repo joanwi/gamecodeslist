@@ -4,11 +4,8 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import {getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
-
-export const dynamic = "force-dynamic";
 
 const game = "Blue Lock Rivals";
 const currentDate = getCurrentDate();
@@ -75,9 +72,9 @@ export default async function BlueLockRivalsPage() {
           <ul>
             <li>
               Launch{" "}
-              <Link href="https://www.roblox.com/games/18668065416/UPD-Blue-Lock-Rivals">
+              <a href="https://www.roblox.com/games/18668065416/UPD-Blue-Lock-Rivals" target="_blank" rel="noopener noreferrer">
                 Blue Lock Rivals on Roblox
-              </Link>{" "}
+              </a>{" "}
               and reach Level 5 or 10 (some codes require Level 10).
             </li>
             <li>
@@ -125,21 +122,21 @@ export default async function BlueLockRivalsPage() {
           <p>Want more Blue Lock Rivals codes? Here&apos;s where to find them:</p>
           <ul>
             <li>
-              <Link href="https://discord.com/invite/bluelockrivals">
+              <a href="https://discord.com/invite/bluelockrivals" target="_blank" rel="noopener noreferrer">
                 Official Blue Lock Rivals Discord:{" "}
-              </Link>
+              </a>
               Join the server and check the codes channel for updates.
             </li>
             <li>
-              <Link href="https://trello.com/b/R9gCGamp/blue-lock-rivals">
+              <a href="https://trello.com/b/R9gCGamp/blue-lock-rivals" target="_blank" rel="noopener noreferrer">
                 Blue Lock Rivals Trello Board:{" "}
-              </Link>
+              </a>
               A great resource for codes, styles, and game info.
             </li>
             <li>
-              <Link href="https://www.roblox.com/communities/34671275/Blue-Lock-Rivals-Unofficial-Fans#!/about">
+              <a href="https://www.roblox.com/communities/34671275/Blue-Lock-Rivals-Unofficial-Fans#!/about" target="_blank" rel="noopener noreferrer">
                 BLR Community Page:{" "}
-              </Link>
+              </a>
               Developers often drop Blue Lock Rivals codes here.
             </li>
             <li>

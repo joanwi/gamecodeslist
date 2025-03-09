@@ -4,11 +4,8 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
-
-export const dynamic = "force-dynamic";
 
 const game = "Genshin Impact";
 const currentDate = getCurrentDate();
@@ -48,7 +45,7 @@ export default async function GenshinImpactPage() {
             you&apos;re exploring the vast world of Teyvat and looking to score
             some free Primogems, Mora, Hero&apos;s Wit, and other in-game
             goodies, you&apos;ve come to the right place.{" "}
-            <Link href="https://genshin.hoyoverse.com/">Hoyoverse,</Link> the
+            <a href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener noreferrer">Hoyoverse,</a> the
             developer behind this massive open-world RPG, frequently releases
             Genshin Impact codes to reward players during livestreams, updates,
             and special events. In this guide, we&apos;ll provide you with the
@@ -83,9 +80,9 @@ export default async function GenshinImpactPage() {
           <ul>
             <li>
               Visit the{" "}
-              <Link href="https://genshin.hoyoverse.com/en/gift">
+              <a href="https://genshin.hoyoverse.com/en/gift" target="_blank" rel="noopener noreferrer">
                 official Genshin Impact code redemption page.
-              </Link>
+              </a>
             </li>
             <li>Log in to your Hoyoverse account.</li>
             <li>
@@ -139,14 +136,14 @@ export default async function GenshinImpactPage() {
             </li>
             <li>
               <strong>Social Media:</strong> Follow Genshin Impact on{" "}
-              <Link href="https://x.com/GenshinImpact">Twitter</Link>,{" "}
-              <Link href="https://www.facebook.com/Genshinimpact/">
+              <a href="https://x.com/GenshinImpact" target="_blank" rel="noopener noreferrer">Twitter</a>,{" "}
+              <a href="https://www.facebook.com/Genshinimpact/" target="_blank" rel="noopener noreferrer">
                 Facebook
-              </Link>
+              </a>
               , or join the{" "}
-              <Link href="https://discord.com/invite/genshinimpact">
+              <a href="https://discord.com/invite/genshinimpact" target="_blank" rel="noopener noreferrer">
                 Discord
-              </Link>{" "}
+              </a>{" "}
               for announcements.
             </li>
             <li>

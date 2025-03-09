@@ -4,11 +4,9 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const dynamic = "force-dynamic";
 
 const game = "Blox Fruits";
 const currentDate = getCurrentDate();
@@ -72,9 +70,9 @@ export default async function BloxFruitsPage() {
           <ul>
             <li>
               Launch{" "}
-              <Link href="https://www.roblox.com/games/2753915549/Blox-Fruits">
+              <a href="https://www.roblox.com/games/2753915549/Blox-Fruits" target="_blank" rel="noopener noreferrer">
                 Blox Fruits in Roblox
-              </Link>{" "}
+              </a>{" "}
             </li>
             <li>Choose a side (Marine or Pirate)</li>
             <li>
@@ -134,17 +132,17 @@ export default async function BloxFruitsPage() {
           </p>
           <ul>
             <li>
-              <Link href="https://x.com/BloxFruits">Twitter/X</Link>: Follow the
+              <a href="https://x.com/BloxFruits" target="_blank" rel="noopener noreferrer">Twitter/X</a>: Follow the
               official Blox Fruits Twitter account
             </li>
             <li>
-              <Link href="https://discord.com/invite/bloxfruits">Discord</Link>:
+              <a href="https://discord.com/invite/bloxfruits" target="_blank" rel="noopener noreferrer">Discord</a>:
               Join the official Blox Fruits Discord server
             </li>
             <li>
-              <Link href="https://www.youtube.com/@GamerRobot/videos">
+              <a href="https://www.youtube.com/@GamerRobot/videos" target="_blank" rel="noopener noreferrer">
                 YouTube
-              </Link>
+              </a>
               : Subscribe to developer channels that announce new Blox Fruits
               codes
             </li>

@@ -4,11 +4,9 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const dynamic = "force-dynamic";
 
 const game = "Anime Adventures";
 const currentDate = getCurrentDate();
@@ -71,9 +69,9 @@ export default async function BloxFruitsPage() {
           <ul>
             <li>
               <strong>Launch Anime Adventures</strong> - Open{" "}
-              <Link href="https://www.roblox.com/games/9368897716/RE-RELEASE-Anime-Adventures">
+              <a href="https://www.roblox.com/games/9368897716/RE-RELEASE-Anime-Adventures" target="_blank" rel="noopener noreferrer">
                 Roblox
-              </Link>{" "}
+              </a>{" "}
               and start the game on your PC, mobile, or console.
             </li>
             <li>
@@ -157,10 +155,10 @@ export default async function BloxFruitsPage() {
             </li>
             <li>
               <strong>Stay Updated</strong> - Follow the official{" "}
-              <Link href="https://discord.com/invite/adventures">
+              <a href="https://discord.com/invite/adventures" target="_blank" rel="noopener noreferrer">
                 Anime Adventures Discord
-              </Link>{" "}
-              or <Link href="https://x.com/GomuDev">@GomuDev on X</Link> for
+              </a>{" "}
+              or <a href="https://x.com/GomuDev" target="_blank" rel="noopener noreferrer">@GomuDev on X</a> for
               real-time code drops and game news.
             </li>
           </ul>

@@ -9,12 +9,10 @@ import {
 } from "@/components/ui/accordion";
 import { Metadata } from "next";
 
-export const dynamic = "force-dynamic";
-
 export const metadata: Metadata = {
   title: "Free Game Codes, Redeem Codes & Promo Codes | GameCodesList",
   description:
-    "Discover the latest free game codes, redeem codes, and promo codes for popular games. Updated daily with verified working codes to enhance your gaming experience without spending extra money.",
+    "Discover the latest free game codes, redeem codes for popular games. Updated daily with verified working codes to enhance your gaming experience.",
   keywords: [
     "Free Game Codes",
     "latest game codes",

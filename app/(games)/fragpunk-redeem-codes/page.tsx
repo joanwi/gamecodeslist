@@ -4,11 +4,8 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
-
-export const dynamic = "force-dynamic";
 
 const game = "FragPunk";
 const currentDate = getCurrentDate();
@@ -94,28 +91,28 @@ export default async function BloxFruitsPage() {
           <ul>
             <li>
               Follow the official FragPunk social media accounts (
-              <Link href="https://x.com/PlayFragPunk">Twitter/X</Link>,{" "}
-              <Link href="https://www.instagram.com/fragpunkglobal/">
+              <a href="https://x.com/PlayFragPunk" target="_blank" rel="noopener noreferrer">Twitter/X</a>,{" "}
+              <a href="https://www.instagram.com/fragpunkglobal/" target="_blank" rel="noopener noreferrer">
                 Instagram
-              </Link>
+              </a>
               ,{" "}
-              <Link href="https://www.facebook.com/PlayFragPunk/">
+              <a href="https://www.facebook.com/PlayFragPunk/" target="_blank" rel="noopener noreferrer">
                 Facebook
-              </Link>
+              </a>
               )
             </li>
             <li>
               Join the official{" "}
-              <Link href="https://discord.com/invite/fragpunk">
+              <a href="https://discord.com/invite/fragpunk" target="_blank" rel="noopener noreferrer">
                 Fragpunk Discord
-              </Link>{" "}
+              </a>{" "}
               server
             </li>
             <li>
               Subscribe to their{" "}
-              <Link href="https://www.youtube.com/channel/UC6Y3O2aAJf6orASsPAI9ElA">
+              <a href="https://www.youtube.com/channel/UC6Y3O2aAJf6orASsPAI9ElA" target="_blank" rel="noopener noreferrer">
                 YouTube channel
-              </Link>{" "}
+              </a>{" "}
               for announcements
             </li>
           </ul>
@@ -126,9 +123,9 @@ export default async function BloxFruitsPage() {
           <ul>
             <li>
               Check{" "}
-              <Link href="https://www.reddit.com/r/PlayFragPunk/">
+              <a href="https://www.reddit.com/r/PlayFragPunk/" target="_blank" rel="noopener noreferrer">
                 Reddit communities
-              </Link>
+              </a>
             </li>
             <li>Follow popular FragPunk streamers and content creators</li>
             <li>Join FragPunk-focused Discord servers</li>

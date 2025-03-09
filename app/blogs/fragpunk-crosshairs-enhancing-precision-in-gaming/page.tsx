@@ -1,14 +1,9 @@
-import GameCodes from "@/components/GameCodes";
 import CommentsSection from "@/components/CommentsSection";
 import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
-import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
-
-export const dynamic = "force-dynamic";
 
 const game = "Fragpunk Crosshairs";
 
@@ -39,7 +34,7 @@ export default async function BloxFruitsPage() {
         <div className="article-container">
           <p>
             If you are looking to improve your gameplay in{" "}
-            <Link href="https://www.fragpunk.com/">Fragpunk</Link>, focusing on
+            <a href="https://www.fragpunk.com/" target="_blank" rel="noopener noreferrer">Fragpunk</a>, focusing on
             your crosshair settings is essential. Customizing your crosshair can
             enhance your aim, provide better visibility, and give you a personal
             touch in the game.{" "}
@@ -354,9 +349,9 @@ export default async function BloxFruitsPage() {
             You can find a guide to customize FragPunk crosshairs in the game’s
             Settings menu or online forums dedicated to FragPunk. A helpful
             resource can also be found at{" "}
-            <Link href="https://esports.gg/guides/fragpunk/how-to-customize-your-crosshair-in-fragpunk/">
+            <a href="https://esports.gg/guides/fragpunk/how-to-customize-your-crosshair-in-fragpunk/" target="_blank" rel="noopener noreferrer">
               Esports.gg
-            </Link>
+            </a>
             , where you can learn about adjusting your crosshair settings.
           </p>
           <h3>

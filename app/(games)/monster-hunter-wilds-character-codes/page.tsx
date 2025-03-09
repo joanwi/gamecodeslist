@@ -3,12 +3,9 @@ import Sidebar from "@/components/Sidebar";
 import BlogHeader from "@/components/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
-import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 import CharacterTable from "@/components/MHCharacterTable";
-
-export const dynamic = "force-dynamic";
 
 const game = "Monster Hunter Wilds";
 const currentDate = getCurrentDate();
@@ -45,9 +42,9 @@ export default async function MonsterHunterWildsPage() {
         <div className="article-container">
           <p>
             The latest entry in the iconic series,{" "}
-            <Link href="https://www.monsterhunter.com/wilds/">
+            <a href="https://www.monsterhunter.com/wilds/" target="_blank" rel="noopener noreferrer">
               Monster Hunter Wilds
-            </Link>{" "}
+            </a>{" "}
             redefines open-world hunting with a revolutionary dynamic ecosystem
             and unparalleled ​character customization. Set in the uncharted
             "Forbidden Lands," players join an expedition to unravel the mystery
@@ -205,7 +202,7 @@ export default async function MonsterHunterWildsPage() {
           <ul>
             <li>
               <strong>Reddit:</strong> Communities like{" "}
-              <Link href="https://www.reddit.com/r/MHWilds/">r/MHWilds</Link>{" "}
+              <a href="https://www.reddit.com/r/MHWilds/" target="_blank" rel="noopener noreferrer">r/MHWilds</a>{" "}
               feature threads dedicated to character codes
             </li>
             <li>
@@ -218,9 +215,9 @@ export default async function MonsterHunterWildsPage() {
             </li>
             <li>
               <strong>Social Media:</strong>{" "}
-              <Link href="https://x.com/monsterhunter">
+              <a href="https://x.com/monsterhunter" target="_blank" rel="noopener noreferrer">
                 X (formerly Twitter)
-              </Link>{" "}
+              </a>{" "}
               and Facebook groups often feature newly shared codes
             </li>
           </ul>
