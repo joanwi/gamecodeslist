@@ -181,7 +181,7 @@ export default async function BloxFruitsPage() {
           <p>
             The gameplay loop revolves around engaging in battles, completing
             objectives, and earning rewards. You will find yourself making
-            split-second decisions, whether you’re capturing points or
+            split-second decisions, whether you're capturing points or
             eliminating opponents. This dynamic keeps each match exciting and
             unpredictable. Additionally, character abilities can be combined
             effectively, allowing for powerful team strategies.
