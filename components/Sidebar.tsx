@@ -5,7 +5,7 @@ import { fetchLatestUpdates } from "@/lib/data";
 export default async function Sidebar() {
   const { siderBarGames } = await fetchLatestUpdates();
 
-  const sortedGames = siderBarGames.slice(0, 6);
+  const sortedGames = siderBarGames.slice(0, 7);
 
   return (
     <div className="grid grid-cols-1 gap-4 max-w-[260px]">

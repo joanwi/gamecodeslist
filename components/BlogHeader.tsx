@@ -43,7 +43,7 @@ export default function BlogHeader({
     <div className="mb-8">
       <h1 className="text-4xl font-bold">{title}</h1>
       <div className="flex items-center flex-wrap gap-3 mt-4">
-        <Image src="/Mason-Parker.jpeg" alt="A" width={26} height={26} className="rounded-full" />
+        <Image src="/Mason-Parker.jpeg" alt="Mason Parker" width={26} height={26} className="rounded-full" />
         <span>Mason Parker</span>
         <span className="ml-2 text-yellow-700 font-bold">
           Last updated: {lastUpdated}

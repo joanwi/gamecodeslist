@@ -51,6 +51,10 @@ export const sideGames = [
     game: "FragPunk",
     imageUrl: "/Fragpunk Crosshairs-1.jpg",
   },
+  {
+    game: "SpongeBob Tower Defense",
+    imageUrl: "/SpongeBob-Tower-Defense.jpg",
+  },
 ];
 
 
