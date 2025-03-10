@@ -22,7 +22,7 @@ export default async function GameCodes({
             bg-clip-text text-transparent 
             font-extrabold 
             animate-pulse hover:animate-bounce">
-            New
+            Active
           </span>{" "}
           {game} Codes
         </h2>

@@ -55,6 +55,10 @@ export const sideGames = [
     game: "SpongeBob Tower Defense",
     imageUrl: "/SpongeBob-Tower-Defense.jpg",
   },
+  {
+    game: "WWE 2K25",
+    imageUrl: "/wwe-2k25.jpg",
+  },
 ];
 
 
