@@ -37,3 +37,13 @@ export interface SiderBarCodes {
   imageUrl: string;
 }
 
+export interface BlogList{
+  id:number
+  game:string
+  title: string
+  description: string
+  date: string
+  coverImage: string
+  url:string
+}
+
