@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white border-t bg-card">
-      <div className="container mx-auto px-12 py-12">
+      <div className="container mx-auto px-12 py-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
@@ -66,13 +66,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="mt-4 text-center text-sm text-muted-foreground">
-          <p>
-            If you believe an image on GameCodesList.com belongs to you and
-            you’d like us to remove it, please contact us at <br />
-            support@gamecodeslist.com, and we’ll promptly address your request.
-          </p>
         </div>
 
         <div className="border-t mt-4 pt-6 text-center text-sm text-muted-foreground">

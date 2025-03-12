@@ -13,107 +13,146 @@ export default function TermsOfService() {
   return (
     <div className="container mx-auto px-6 md:px-24 py-8 flex flex-col md:flex-row">
       <main className="article-container">
-        <main>
-          <h1>Terms of Service</h1>
-          <p>Effective Date: March 4, 2025</p>
-          <section>
-            <p>
-              Welcome to GameCodesList.com. By using this Website, you agree to
-              these Terms of Service (Terms). If you do not agree, please do not
-              use the Website.
-            </p>
-          </section>
+        <h1>Terms of Service For GameCodesList</h1>
+        <p>
+          <strong>Effective Date:</strong> March 12, 2025
+        </p>
 
-          <section>
-            <h2>1. Use of the Website</h2>
-            <article>
-              <h3>General Rules</h3>
-              <ul>
-                <li>Use the Website lawfully and responsibly</li>
-                <li>Do not disrupt the Website (e.g., spamming, hacking)</li>
-              </ul>
-            </article>
-          </section>
+        <h2 id="acceptance">1. Acceptance of Terms</h2>
+        <p>
+          By accessing or using GameCodesList.com ("the Website"), you agree to
+          be bound by these Terms of Service and our{" "}
+          <a href="#">Privacy Policy</a>. If you are under 13 years old (or the
+          minimum legal age in your jurisdiction), you must immediately cease
+          using the Website.
+        </p>
 
-          <section>
-            <h2>2. Game Codes</h2>
+        <h2 id="service">2. Service Description</h2>
+        <p>
+          The Website aggregates publicly available video game redemption codes
+          from:
+        </p>
+        <ul>
+          <li>
+            Official channels of game developers/publishers (e.g., X, Discord,
+            YouTube)
+          </li>
+          <li>Verified community giveaways</li>
+        </ul>
+        <h3>Prohibited Content:</h3>
+        <ul className="prohibited">
+          <li>❌ Paid codes not publicly released</li>
+          <li>
+            ❌ Codes obtained through piracy, hacking, or unauthorized means
+          </li>
+        </ul>
 
-            <h3>Source</h3>
-            <p>
-              Game codes are collected from public sources, official social
-              media accounts like X, Discord, YouTube or others. We do not own
-              these codes and attribute them where possible.
-            </p>
+        <h2 id="ip">3. Intellectual Property</h2>
+        <h3>3.1 Game Codes</h3>
+        <p>
+          All game codes remain the intellectual property of their respective
+          developers or licensors.
+        </p>
+        <p>
+          To submit a <strong>DMCA Takedown Request</strong>, contact:
+        </p>
+        <ul>
+          <li>
+            Email:{" "}
+            <a href="mailto:legal@gamecodeslist.com">support@gamecodeslist.com</a>{" "}
+            (response within 24 hours)
+          </li>
+          <li>
+            Required information:
+            <ul>
+              <li>Copyright proof</li>
+              <li>Infringing URL</li>
+              <li>Contact details</li>
+              <li>Statement under penalty of perjury</li>
+            </ul>
+          </li>
+        </ul>
 
-            <h3>Availability</h3>
-            <p>We do not guarantee code accuracy or validity.</p>
-          </section>
+        <h3>3.2 Website Content</h3>
+        <p>
+          Original content (e.g., guides, layouts) is &copy; 2025
+          GameCodesList.com. Unauthorized replication is prohibited.
+        </p>
+        <p>
+          Third-party assets (e.g., game icons) are credited to rights holders.
+          Report uncredited content for removal.
+        </p>
 
-          <section>
-            <h2>3. User Comments</h2>
+        <h2 id="responsibilities">4. User Responsibilities</h2>
+        <h3>4.1 User-Generated Content (Comments)</h3>
+        <p>You agree NOT to post content containing:</p>
+        <ul>
+          <li>Hate speech, discrimination, or violent threats</li>
+          <li>Spam, phishing links, or malware</li>
+          <li>Privacy violations or infringing material</li>
+        </ul>
+        <p>
+          <strong>Consequences:</strong> We reserve the right to remove content,
+          suspend accounts, and report violations to authorities.
+        </p>
 
-            <h3>Submission</h3>
-            <p>You may submit comments, subject to moderation.</p>
+        <h3>4.2 Code Usage Disclaimer</h3>
+        <p>By using codes from this Website, you acknowledge:</p>
+        <ul>
+          <li>
+            Codes may expire or be region-locked; we do not guarantee validity.
+          </li>
+          <li>
+            Developers may revoke improperly used codes; we assume no liability
+            for account penalties.
+          </li>
+        </ul>
 
-            <h3>Moderation</h3>
-            <p>We may reject, edit, or remove comments at our discretion.</p>
+        <h2 id="privacy">5. Privacy & Data Practices</h2>
+        <h3>Data Collection</h3>
+        <p>We use anonymized tracking via:</p>
+        <ul>
+          <li>
+            <strong>Google Analytics:</strong> Measures traffic sources and page
+            interactions (see <a href="#">Privacy Policy</a>).
+          </li>
+          <li>
+            <strong>Microsoft Clarity:</strong> Records user behavior (e.g.,
+            clicks, scrolling) for UX optimization.
+          </li>
+        </ul>
 
-            <h3>Ownership</h3>
-            <p>You grant us a license to use your comments.</p>
+        <h2 id="liability">6. Limitation of Liability</h2>
+        <p>We are not responsible for:</p>
+        <ul>
+          <li>
+            Temporary service disruptions due to server outages or cyberattacks.
+          </li>
+          <li>
+            Losses incurred from third-party links (e.g., game official sites).
+          </li>
+          <li>Developer-enforced penalties for code misuse.</li>
+        </ul>
 
-            <article>
-              <h3>Responsibility</h3>
-              <p>You are responsible for your comment content.</p>
-            </article>
-          </section>
+        <h2 id="provisions">7. General Provisions</h2>
+        <h3>Governing Law</h3>
+        <p>
+          These Terms are governed by the laws of the State of California, USA.
+        </p>
 
-          <section>
-            <h2>4. Analytics and Advertising</h2>
+        <h3>Updates</h3>
+        <p>
+          Material changes will be notified via website banners or registered
+          user emails.
+        </p>
 
-            <h3>Google Analytics</h3>
-            <p>
-              We use Google Analytics to track usage. See our{" "}
-              <a href="/privacy-policy">Privacy Policy</a> for details.
-            </p>
-
-            <h3>Future Ads</h3>
-            <p>
-              We may introduce ads served by third-party networks, which may use
-              tracking technologies.
-            </p>
-          </section>
-
-          <section>
-            <h2>5. Intellectual Property</h2>
-            <p>
-              Our original content is protected by copyright. Game codes belong
-              to their respective owners.
-            </p>
-          </section>
-
-          <section>
-            <h2>6. Limitation of Liability</h2>
-            <p>
-              We are not liable for damages from using the Website, codes, or
-              comments.
-            </p>
-          </section>
-
-          <section>
-            <h2>7. Termination</h2>
-            <p>We may restrict your access at our discretion.</p>
-          </section>
-
-          <section>
-            <h2>8. Contact Us</h2>
-            <address>
-              Email:{" "}
-              <a href="mailto:support@gamecodeslist.com">
-                support@gamecodeslist.com
-              </a>
-            </address>
-          </section>
-        </main>
+        <h3>Contact</h3>
+        <address>
+          General inquiries:{" "}
+          <a href="mailto:support@gamecodeslist.com">
+            support@gamecodeslist.com
+          </a>
+        </address>
       </main>
     </div>
   );
