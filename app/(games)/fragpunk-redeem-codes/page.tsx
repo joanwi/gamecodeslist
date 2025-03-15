@@ -40,15 +40,15 @@ export default async function BloxFruitsPage() {
         <div className="article-container">
           <p>
             If you're diving into the fast-paced world of FragPunk, the 5v5 hero
-            shooter that’s taken the gaming community by storm since its March
-            6, 2025 launch, you’re probably eager to enhance your experience
+            shooter that's taken the gaming community by storm since its March
+            6, 2025 launch, you're probably eager to enhance your experience
             with some free in-game goodies. Redeem codes are the perfect way to
             score valuable rewards like gold, pop cans, and sticker packs—items
             that can give you an edge or just make your gameplay more fun.
           </p>
           <p>
-            We’ve rounded up the latest active FragPunk redeem codes to help you
-            get started, so let’s jump right in and explore what’s available!
+            We've rounded up the latest active FragPunk redeem codes to help you
+            get started, so let's jump right in and explore what's available!
           </p>
           <Image
             src="/Fragpunk Crosshairs-2.jpg"
@@ -136,7 +136,7 @@ export default async function BloxFruitsPage() {
           FragPunk redeem codes are special codes released by the developers
             of this 5v5 hero shooter, launched on March 6, 2025, to give players
             free in-game rewards like Gold, FragPunk Coins, and exclusive items.
-            Whether you’re a new player or a seasoned fragger, these codes offer
+            Whether you're a new player or a seasoned fragger, these codes offer
             a quick way to boost your experience—think currency for unlocking
             characters, upgrading loadouts, or grabbing battle passes, plus cool
             extras like sticker packs and weapon skins that add personal flair
