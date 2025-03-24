@@ -11,9 +11,9 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Game Codes, Redeem Codes & Promo Codes | GameCodesList",
+  title: "Free Redeem Codes for Top Games | GameCodesList",
   description:
-    "Discover the latest free game codes, redeem codes for popular games. Updated daily with verified working codes to enhance your gaming experience.",
+    "Get free game codes for Roblox, Fortnite, and more! Redeem the latest codes from our updated list of top games.",
   keywords: [
     "Free Game Codes",
     "latest game codes",
