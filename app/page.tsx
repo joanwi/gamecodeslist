@@ -21,8 +21,16 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col pt-20"> 
       <div className="container mx-auto px-4 flex-grow">
+        <div className="max-w-6xl mx-auto py-10">
+          <h1 className="text-3xl md:text-5xl font-bold text-center mb-6">
+            Free Game Codes & Redeem Codes
+          </h1>
+          <p className="text-xl font-bold text-center">
+            Enter a game name to quickly find the latest redeem codes!
+          </p>
+        </div>
         <SearchBar />
         <section className="my-8">
           <h2 className="text-2xl font-bold mb-4">Featured Games Codes</h2>

@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-gray-100 antialiased`}>
         <Header />
-        {children}
+          {children}
         <Footer />
       </body>
       <GoogleAnalytics gaId="G-GL8D8XMBEB" />

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import SearchBar from "./SearchBar";
 
 const navItems = [
   { text: "Home", href: "/" },
@@ -14,10 +15,14 @@ const navItems = [
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleNavClick = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <header className="bg-gray-800 text-white p-4 relative">
+    <header className="fixed top-0 left-0 right-0 bg-gray-800 text-white p-4 z-50 shadow-lg">
       <div className="container pr-4 mx-auto flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-1 ">
+        <Link href="/" className="flex items-center space-x-1">
           <Image
             src="/GameCodesList.com.jpg"
             alt="GameCodesList.com"
@@ -27,6 +32,7 @@ export default function Header() {
           />
           <span className="text-2xl font-bold">GameCodesList</span>
         </Link>
+        
         <nav className="hidden md:block">
           <ul className="flex space-x-6">
             {navItems.map((item) => (
@@ -38,6 +44,10 @@ export default function Header() {
             ))}
           </ul>
         </nav>
+
+        <div className="hidden md:block">
+          <SearchBar compact={true} />
+        </div>
 
         <button
           className="md:hidden focus:outline-none"
@@ -51,14 +61,20 @@ export default function Header() {
       </div>
 
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-gray-800 z-50 transition-all duration-300 overflow-hidden ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-gray-800 z-50 transition-all duration-300 overflow-hidden shadow-lg ${
           isOpen ? "max-h-96" : "max-h-0"
         }`}>
         <nav className="p-4">
+          <div className="mb-4">
+            <SearchBar compact={true} onSelect={handleNavClick} />
+          </div>
           <ul className="flex flex-col space-y-4">
             {navItems.map((item) => (
               <li key={item.text}>
-                <Link href={item.href} className="block py-2 hover:underline">
+                <Link 
+                  href={item.href} 
+                  className="block py-2 hover:underline"
+                  onClick={handleNavClick}>
                   {item.text}
                 </Link>
               </li>

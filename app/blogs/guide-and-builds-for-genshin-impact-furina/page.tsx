@@ -1,6 +1,6 @@
-import CommentsSection from "@/components/CommentsSection";
-import Sidebar from "@/components/Sidebar";
-import BlogHeader from "@/components/BlogHeader";
+import CommentsSection from "@/components/pages/CommentsSection";
+import Sidebar from "@/components/pages/Sidebar";
+import BlogHeader from "@/components/pages/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { Metadata } from "next";
 import Image from "next/image";

@@ -1,4 +1,4 @@
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/pages/Sidebar";
 import BlogPageList from "@/components/BlogPageList";
 import { latestBlogs } from "@/lib/blogs";
 import { Metadata } from "next";

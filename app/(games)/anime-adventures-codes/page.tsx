@@ -1,7 +1,7 @@
-import GameCodes from "@/components/GameCodes";
-import CommentsSection from "@/components/CommentsSection";
-import Sidebar from "@/components/Sidebar";
-import BlogHeader from "@/components/BlogHeader";
+import GameCodes from "@/components/pages/GameCodes";
+import CommentsSection from "@/components/pages/CommentsSection";
+import Sidebar from "@/components/pages/Sidebar";
+import BlogHeader from "@/components/pages/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import { getCurrentDate } from "@/lib/sideAndFeaturedGames";
 import { Metadata } from "next";
@@ -25,22 +25,22 @@ export default async function BloxFruitsPage() {
     await fetchGameData(game);
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row">
+    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row pt-20">
       <main className="md:w-2/3 md:pr-8">
         <BlogHeader
           title={`Anime Adventures Codes (${currentDate})`}
           lastUpdated={lastUpdated}
           commentsSum={commentsSum}
-          url="https://gamecodeslist.com/anime-adventures-codes"
+          url="https://www.gamecodeslist.com/anime-adventures-codes"
         />
         <div className="article-container">
           <p>
             Welcome to the ultimate resource for Anime Adventures codes! If
-            you’re a fan of this popular Roblox tower defense game, you’re in
-            the right place. Here, we’ve compiled the latest working codes for
+            you're a fan of this popular Roblox tower defense game, you're in
+            the right place. Here, we've compiled the latest working codes for
             March 2025, along with step-by-step instructions on how to redeem
             them, tips to level up faster, and everything else you need to
-            dominate the game. Whether you’re summoning powerful anime
+            dominate the game. Whether you're summoning powerful anime
             characters or defending your base from waves of enemies, these free
             rewards—like gems, summon tickets, and more—will give you the edge
             you need.
@@ -75,7 +75,7 @@ export default async function BloxFruitsPage() {
             </li>
             <li>
               <strong>Head to the Codes Area</strong> - From the spawn point in
-              the lobby, walk toward the “CODES” sign (it’s a glowing blue
+              the lobby, walk toward the “CODES” sign (it's a glowing blue
               circle with a star in the center, located near the park area).
             </li>
             <li>
@@ -92,7 +92,7 @@ export default async function BloxFruitsPage() {
             </li>
           </ul>
           <p>
-            <strong>Pro Tip: </strong>If a code doesn’t work, try restarting the
+            <strong>Pro Tip: </strong>If a code doesn't work, try restarting the
             game to join a fresh server—sometimes codes glitch on older builds.
           </p>
           <Image
@@ -102,7 +102,7 @@ export default async function BloxFruitsPage() {
             height={600}></Image>
           <h2>What Are Anime Adventures Codes?</h2>
           <p>
-            Anime Adventures codes are special giveaways from the game’s
+            Anime Adventures codes are special giveaways from the game's
             developers, Gomu, designed to reward players with free in-game
             items. These typically include:
           </p>
@@ -122,13 +122,13 @@ export default async function BloxFruitsPage() {
           </ul>
           <p>
             Codes are often released during updates, events (like holidays), or
-            when the game hits milestones (e.g., 2 billion visits). They’re a
+            when the game hits milestones (e.g., 2 billion visits). They're a
             quick way to boost your progress without spending Robux or grinding
             for hours.
           </p>
           <h2>Tips to Maximize Your Rewards</h2>
           <p>
-            Want to make the most of your codes? Here’s how to level up fast and
+            Want to make the most of your codes? Here's how to level up fast and
             build the ultimate anime team:
           </p>
           <ul>
@@ -161,9 +161,9 @@ export default async function BloxFruitsPage() {
               real-time code drops and game news.
             </li>
           </ul>
-          <h2>Why Aren’t My Anime Adventures Codes Working?</h2>
+          <h2>Why Aren't My Anime Adventures Codes Working?</h2>
           <p>
-            If you’re having trouble redeeming codes, here are some common
+            If you're having trouble redeeming codes, here are some common
             issues and fixes:
           </p>
           <ul>
@@ -185,11 +185,11 @@ export default async function BloxFruitsPage() {
             </li>
           </ul>
           <p>
-            Still stuck? Drop a comment below, and we’ll help you troubleshoot!
+            Still stuck? Drop a comment below, and we'll help you troubleshoot!
           </p>
           <h2>More Ways to Get Free Rewards</h2>
           <p>
-            Codes aren’t the only way to score freebies in Anime Adventures. Try
+            Codes aren't the only way to score freebies in Anime Adventures. Try
             these methods:
           </p>
           <ul>
@@ -212,8 +212,8 @@ export default async function BloxFruitsPage() {
             iconic anime characters—like Naruto, Goku, and Griffith—to protect
             your base from waves of enemies. Developed by Gomu, it launched in
             July 2022 and quickly became a fan favorite thanks to its rich
-            graphics, diverse unit roster, and engaging gameplay. Whether you’re
-            playing solo in Story Mode or teaming up for Raids, there’s always a
+            graphics, diverse unit roster, and engaging gameplay. Whether you're
+            playing solo in Story Mode or teaming up for Raids, there's always a
             new challenge to conquer.
           </p>
           <h2>Stay Ahead with the Latest Anime Adventures Codes</h2>

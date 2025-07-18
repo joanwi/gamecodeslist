@@ -2,7 +2,7 @@
 import { useState} from "react";
 import { format } from "date-fns";
 import { Comment,GroupedComments } from "@/lib/types";
-import ReplyForm from "./ReplyForm";
+import ReplyForm from "@/components/pages/ReplyForm";
 
 export default function CommentsSection({
   initialComments,

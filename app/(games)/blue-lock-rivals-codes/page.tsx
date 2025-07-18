@@ -1,7 +1,7 @@
-import GameCodes from "@/components/GameCodes";
-import CommentsSection from "@/components/CommentsSection";
-import Sidebar from "@/components/Sidebar";
-import BlogHeader from "@/components/BlogHeader";
+import GameCodes from "@/components/pages/GameCodes";
+import CommentsSection from "@/components/pages/CommentsSection";
+import Sidebar from "@/components/pages/Sidebar";
+import BlogHeader from "@/components/pages/BlogHeader";
 import { fetchGameData } from "@/lib/data";
 import {getCurrentDate } from "@/lib/sideAndFeaturedGames";
 import { Metadata } from "next";
@@ -24,7 +24,7 @@ export default async function BlueLockRivalsPage() {
     await fetchGameData(game);
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row">
+    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row pt-20">
       <main className="md:w-2/3 md:pr-8">
         <BlogHeader
           title={`Blue Lock Rivals Codes (${currentDate})`}

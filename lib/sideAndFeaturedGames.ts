@@ -1,5 +1,5 @@
 export const featuredGames = [
-  //fixed 5 game
+  //home page fixed 5 game
   {
     game: "FragPunk",
     imageUrl: "/Fragpunk Crosshairs-1.jpg",
@@ -21,6 +21,7 @@ export const featuredGames = [
     imageUrl: "/Blox-Fruits-codes.jpg",
   },
 ];
+
 //siderbar image === featuredGamesImage
 export const sideGames = [
   {
