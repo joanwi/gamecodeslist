@@ -14,11 +14,6 @@ export const metadata: Metadata = {
   title: `FragPunk Redeem Codes (${currentDate}) | GameCodesList`,
   description:
     "Grab free Fragpunk rewards with redeem codes! Unlock Gold, Coins, skins, and more to enhance your 5v5 hero shooter gameplay. Redeem easily, master the Cards System.",
-  keywords: [
-    "FragPunk Redeem Codes",
-    "FragPunk Codes",
-    "fragpunk redemption codes",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/fragpunk-redeem-codes",
   },

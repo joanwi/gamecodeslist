@@ -14,10 +14,6 @@ export const metadata: Metadata = {
   title: `Latest SpongeBob Tower Defense Codes (${currentDate}) | GameCodesList`,
   description:
     "Get all active SpongeBob Tower Defense codes for March 2025. Redeem now for free Gems, Epic Chests, Trait Rerolls, and more rewards to defend Bikini Bottom!",
-  keywords: [
-    "SpongeBob Tower Defense Codes",
-    "SpongeBob Tower Defense redeem Codes",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/spongebob-tower-defense-codes",
   },

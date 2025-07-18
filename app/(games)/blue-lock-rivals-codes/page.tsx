@@ -14,15 +14,6 @@ export const metadata: Metadata = {
   title: `Blue Lock Rivals Codes (${currentDate}) - Free Spins & Rewards | GameCodesList`,
   description:
     "Discover the latest Blue Lock Rivals codes ! Redeem active Blue Lock Rivals codes for free spins, cash boosts, and flows to dominate the Roblox soccer field. Updated regularly!",
-  keywords: [
-    "Blue Lock Rivals codes",
-    "Blue Lock Rivals",
-    "Roblox Blue Lock Rivals codes",
-    "Blue Lock Rivals active codes",
-    "Blue Lock Rivals free spins",
-    "Blue Lock Rivals redeem codes",
-    "Blue Lock Rivals rewards",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/blue-lock-rivals-codes",
   },

@@ -14,13 +14,6 @@ export const metadata: Metadata = {
   title: `Monster Hunter Wilds Character Codes (${currentDate}) | GameCodesList`,
   description:
     "Complete guide to Monster Hunter Wilds character creation codes. Learn how to create, share, and download custom hunter and palico designs with our collection of popular community codes, step-by-step tutorials, and troubleshooting tips.",
-  keywords: [
-    "monster hunter wilds character codes",
-    "monster hunter wilds character",
-    "monster hunter character codes",
-    "monster hunter wilds character design",
-    "monster hunter wilds hunter design codes",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/monster-hunter-wilds-character-codes",
   },

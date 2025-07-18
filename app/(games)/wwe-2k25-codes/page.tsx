@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   title: `WWE 2K25 Codes: Latest Locker Codes(${currentDate}) | GameCodesList`,
   description:
     "Get latest WWE 2K25 Locker Codes! Redeem rewards like VC, MyFACTION packs, and exclusive wrestler cards. Updated codes, redemption steps, and tips. ",
-  keywords: ["WWE 2K25 Codes", "WWE 2K25 Locker Codes"],
   alternates: {
     canonical: "https://www.gamecodeslist.com/wwe-2k25-codes",
   },

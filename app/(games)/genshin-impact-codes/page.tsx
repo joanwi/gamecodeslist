@@ -14,13 +14,6 @@ export const metadata: Metadata = {
   title: `Genshin Impact Codes (${currentDate}) - Free Primogems & Mora  | GameCodesList`,
   description:
     "Discover the latest Genshin Impact codes for March 2025! Redeem active Genshin Impact codes for free Primogems, Mora, and exclusive rewards. Updated regularly - don&apos;t miss out!",
-  keywords: [
-    "Genshin Impact codes",
-    "Genshin Impact redeem codes",
-    "Free Primogems Genshin Impact",
-    "Genshin Impact March 2025 codes",
-    "Hoyoverse codes",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/genshin-impact-codes",
   },

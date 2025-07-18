@@ -14,13 +14,6 @@ export const metadata: Metadata = {
   title: `Jujutsu Infinite Codes (${currentDate}) - Free Spins | GameCodesList`,
   description:
     "Unlock free spins with the latest Jujutsu Infinite codes for March 2025! Redeem now and master rare Innate Techniques in this Jujutsu Kaisen Roblox RPG.",
-  keywords: [
-    "Jujutsu Infinite codes",
-    "Jujutsu Infinite Roblox",
-    "Free spins Jujutsu Infinite",
-    "Innate Techniques",
-    "Jujutsu Kaisen RPG",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/jujutsu-infinite-codes",
   },

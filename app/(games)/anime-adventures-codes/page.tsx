@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   title: `Anime Adventures Codes (${currentDate}) - Free Gems & Tickets | GameCodesList`,
   description:
     "Get all working Anime Adventures codes for March 2025! Redeem now for free gems, summon tickets, and rewards. Updated daily with the latest codes and redemption instructions.",
-  keywords: ["Anime Adventures Codes", "Roblox tower defense game"],
   alternates: {
     canonical: "https://www.gamecodeslist.com/anime-adventures-codes",
   },

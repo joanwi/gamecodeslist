@@ -15,15 +15,6 @@ export const metadata: Metadata = {
   title: `Blox Fruits Codes (${currentDate}) - Free Rewards | GameCodesList`,
   description:
     "Get all the latest Blox Fruits codes for free XP boosts, stat resets, and rewards. Updated with new active codes and expired ones. Redeem now before they expire!",
-  keywords: [
-    "Blox Fruits codes",
-    "Roblox Blox Fruits codes",
-    "working Blox Fruits codes",
-    "free XP Blox Fruits",
-    "Blox Fruits 2x experience",
-    "redeem Blox Fruits codes",
-    "Blox Fruits rewards",
-  ],
   alternates: {
     canonical: "https://www.gamecodeslist.com/blox-fruits-codes",
   },
