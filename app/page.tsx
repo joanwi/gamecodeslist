@@ -14,14 +14,8 @@ export const metadata: Metadata = {
   title: "Free Redeem Codes for Top Games | GameCodesList",
   description:
     "Get free game codes for Roblox, Fortnite, and more! Redeem the latest codes from our updated list of top games.",
-  keywords: [
-    "Free Game Codes",
-    "latest game codes",
-    "popular games",
-    "redeem codes",
-  ],
   alternates: {
-    canonical: "https://gamecodeslist.com/",
+    canonical: "https://www.gamecodeslist.com/",
   },
 };
 

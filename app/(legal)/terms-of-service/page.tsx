@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Welcome to GameCodesList.com. By using this Website, you agree to these Terms of Service (Terms).",
   alternates: {
-    canonical: "https://gamecodeslist.com/terms-of-service",
+    canonical: "https://www.gamecodeslist.com/terms-of-service",
   },
 };
 

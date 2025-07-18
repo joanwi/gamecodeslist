@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     description:
     "We’re here to help with any questions about game codes or our website. Your feedback matters to us at GameCodesList.com.",
     alternates: {
-      canonical: "https://gamecodeslist.com/contact",
+      canonical: "https://www.gamecodeslist.com/contact",
     },
   };
 

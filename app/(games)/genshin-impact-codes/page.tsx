@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Hoyoverse codes",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/genshin-impact-codes",
+    canonical: "https://www.gamecodeslist.com/genshin-impact-codes",
   },
 };
 

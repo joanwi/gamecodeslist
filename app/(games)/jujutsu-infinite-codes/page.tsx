@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "Jujutsu Kaisen RPG",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/jujutsu-infinite-codes",
+    canonical: "https://www.gamecodeslist.com/jujutsu-infinite-codes",
   },
 };
 

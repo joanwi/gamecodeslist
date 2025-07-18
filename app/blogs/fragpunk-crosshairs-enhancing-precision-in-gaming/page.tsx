@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   keywords: ["Fragpunk Crosshairs", "fragpunk best settings"],
   alternates: {
     canonical:
-      "https://gamecodeslist.com/blogs/fragpunk-crosshairs-enhancing-precision-in-gaming",
+      "https://www.gamecodeslist.com/blogs/fragpunk-crosshairs-enhancing-precision-in-gaming",
   },
 };
 

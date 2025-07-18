@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Blox Fruits rewards",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/blox-fruits-codes",
+    canonical: "https://www.gamecodeslist.com/blox-fruits-codes",
   },
 };
 

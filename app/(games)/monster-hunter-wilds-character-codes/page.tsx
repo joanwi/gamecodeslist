@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "monster hunter wilds hunter design codes",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/monster-hunter-wilds-character-codes",
+    canonical: "https://www.gamecodeslist.com/monster-hunter-wilds-character-codes",
   },
 };
 

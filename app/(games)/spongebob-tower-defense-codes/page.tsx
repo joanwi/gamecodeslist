@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "SpongeBob Tower Defense redeem Codes",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/spongebob-tower-defense-codes",
+    canonical: "https://www.gamecodeslist.com/spongebob-tower-defense-codes",
   },
 };
 

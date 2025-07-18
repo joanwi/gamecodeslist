@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   keywords: ["Furina", "Genshin Impact", "Genshin Impact Furina"],
   alternates: {
     canonical:
-      "https://gamecodeslist.com/blogs/guide-and-builds-for-genshin-impact-furina",
+      "https://www.gamecodeslist.com/blogs/guide-and-builds-for-genshin-impact-furina",
   },
 };
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "fragpunk redemption codes",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/fragpunk-redeem-codes",
+    canonical: "https://www.gamecodeslist.com/fragpunk-redeem-codes",
   },
 };
 

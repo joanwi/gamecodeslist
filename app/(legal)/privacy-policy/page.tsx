@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Website.",
   alternates: {
-    canonical: "https://gamecodeslist.com/privacy-policy",
+    canonical: "https://www.gamecodeslist.com/privacy-policy",
   },
 };
 

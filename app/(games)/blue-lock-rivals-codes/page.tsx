@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "Blue Lock Rivals rewards",
   ],
   alternates: {
-    canonical: "https://gamecodeslist.com/blue-lock-rivals-codes",
+    canonical: "https://www.gamecodeslist.com/blue-lock-rivals-codes",
   },
 };
 
